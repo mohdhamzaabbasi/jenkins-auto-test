@@ -51,7 +51,7 @@ function App() {
         <button onClick={() => handleOperation('subtract')}>Subtraction</button>
         <button onClick={() => handleOperation('multiply')}>Multiply</button>
         <button onClick={() => handleOperation('divide')}>Divide</button>
-        <button onClick={() => handleOperation('mod')}>Modulo</button>
+        <button onClick={() => handleOperation('mod')}>Modulus</button>
         <button onClick={() => handleOperation('power')}>Power</button>
         <button onClick={() => handleOperation('sqrt')}>Square_Root</button>
         <button onClick={() => handleOperation('absolute')}>Absolute</button>
