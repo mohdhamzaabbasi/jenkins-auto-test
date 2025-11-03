@@ -17,7 +17,7 @@ function App() {
         body = { a: parseFloat(a), b: parseFloat(b) };
       }
 
-      const response = await fetch(`http://localhost:3001/api/${op}`, {
+      const response = await fetch(`https://jenkins-auto-test.onrender.com/api/${op}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
